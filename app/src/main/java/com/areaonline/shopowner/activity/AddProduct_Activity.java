@@ -93,6 +93,7 @@ public class AddProduct_Activity extends AppCompatActivity {
     public static final int PICK_IMAGE = 1;
     public static final int PICK_MULTI_IMAGE = 2;
     String listingimg = "";
+
     String coverimg = "";
     String ispickedimg = "";
     File   storageDir;
