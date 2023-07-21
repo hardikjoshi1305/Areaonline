@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".user.fragment.Location_Search_Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_gravity="center"
+            android:background="@color/red_bg"
+            android:gravity="center"
+            android:paddingTop="@dimen/_5sdp"
+            android:orientation="horizontal">
+
+
+
+            <LinearLayout
+                android:id="@+id/line_location"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/_30sdp"
+
+                android:paddingRight="@dimen/_15sdp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_9sdp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="Select Your Location"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14sdp" />
+
+
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/iv_close"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="6"
+                android:paddingRight="@dimen/_9sdp"
+                android:paddingLeft="@dimen/_6sdp"
+                app:srcCompat="@drawable/ic_baseline_close_24" />
+
+
+        </LinearLayout>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_53sdp"
+            android:background="@color/red_bg"
+            android:gravity="center"
+            android:orientation="horizontal"
+
+            android:paddingBottom="@dimen/_8sdp"
+            android:paddingTop="@dimen/_8sdp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_weight="1"
+                app:hintEnabled="false"
+                android:gravity="center_vertical"
+
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_SSearch"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/round_ett"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:drawableLeft="@drawable/ic_baseline_search_24"
+                    android:drawablePadding="@dimen/_8sdp"
+                    android:drawableTint="@color/red_bg"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/grey"
+                    android:hint="Start typing your location"
+                    android:textSize="@dimen/_10sdp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <!--                <com.google.android.material.textfield.TextInputLayout-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="@dimen/_40sdp"-->
+            <!--                    android:layout_weight="1"-->
+            <!--                    android:layout_marginRight="@dimen/_5sdp"-->
+            <!--                    android:gravity="center_vertical"-->
+            <!--                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"-->
+
+            <!--                    >-->
+            <!--                    <com.google.android.material.textfield.TextInputEditText-->
+            <!--                        android:layout_width="match_parent"-->
+            <!--                        android:layout_height="match_parent"-->
+            <!--                        android:gravity="center_vertical"-->
+            <!--                        android:clickable="false"-->
+            <!--                        android:focusable="false"-->
+            <!--                        android:textSize="@dimen/_10sdp"-->
+            <!--                        android:layout_gravity="center_vertical"-->
+            <!--                        android:background="@drawable/round_ett"-->
+            <!--                        android:drawableLeft="@drawable/ic_baseline_location_on_24"-->
+            <!--                        android:drawableTint="@color/red_bg"-->
+            <!--                        android:drawablePadding="@dimen/_4sdp"-->
+            <!--                        android:hint="Enter Your Location"/>-->
+            <!--                </com.google.android.material.textfield.TextInputLayout>-->
+
+            <!--                <ImageView-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:padding="@dimen/_5sdp"-->
+            <!--                    app:srcCompat="@drawable/ic_baseline_search_2"-->
+            <!--                    android:scaleType="fitXY"-->
+
+            <!--                    android:layout_marginRight="@dimen/_5sdp"-->
+            <!--                    android:layout_gravity="center"-->
+            <!--                    app:tint="@color/white" />-->
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </LinearLayout>
+
+</LinearLayout>

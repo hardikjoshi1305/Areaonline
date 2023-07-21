@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8E9E4"
+    tools:context=".user.activity.Messaging_Activity">
+
+    <include layout="@layout/import_activity_chat"></include>
+
+</RelativeLayout>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+<!--    <com.google.android.material.appbar.AppBarLayout-->
+<!--        android:id="@+id/layout_group_chat"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:fitsSystemWindows="true"-->
+<!--        android:orientation="vertical"-->
+<!--        app:layout_constraintTop_toTopOf="parent">-->
+
+<!--        <RelativeLayout  android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            >-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/chat_user_name"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="@dimen/_8sdp"-->
+<!--                android:layout_marginTop="2dp"-->
+<!--                android:text="Company Name"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="18.5sp"-->
+<!--                android:textStyle="normal" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/chat_active_status"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text=""-->
+<!--                android:textSize="14sp"-->
+<!--                android:layout_below="@id/chat_user_name"-->
+<!--                />-->
+
+<!--            <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                android:id="@+id/chat_profile_image"-->
+<!--                android:layout_width="40dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_alignBottom="@+id/chat_active_status"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginRight="6dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:src="@drawable/ic_baseline_person_24"-->
+<!--                app:civ_border_color="@color/white"-->
+<!--                app:civ_border_overlay="true"-->
+<!--                app:civ_border_width=".10dp" />-->
+
+<!--        </RelativeLayout>-->
+<!--    </com.google.android.material.appbar.AppBarLayout>-->
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/recycler_gchat"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_marginBottom="16dp"-->
+<!--        tools:listitem="@layout/listitem_sender"-->
+<!--        app:layout_constrainedHeight="true"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/text_gchat_indicator"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/layout_group_chat" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/text_gchat_indicator"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:visibility="gone"-->
+<!--        app:layout_constraintBottom_toTopOf="@id/view"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+<!--    <View-->
+<!--        android:id="@+id/view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:background="#e0e0e0"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/layout_gchat_chatbox" />-->
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/layout_gchat_chatbox"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent">-->
+
+
+<!--        <EditText-->
+<!--            android:id="@+id/edit_gchat_message"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_toStartOf="@+id/button_gchat_send"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:hint="Enter Message"-->
+<!--            android:inputType="text"-->
+<!--            android:maxLines="6"-->
+<!--            tools:ignore="Autofill" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button_gchat_send"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:background="?attr/selectableItemBackground"-->
+<!--            android:text="Send"-->
+<!--            android:textColor="@color/black" />-->
+
+<!--    </RelativeLayout>-->
+
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->

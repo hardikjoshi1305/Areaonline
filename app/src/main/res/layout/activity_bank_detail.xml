@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".shopowner.activity.BankDetail_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_18sdp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/bank_details"
+                    android:textColor="@color/red_bg"
+                    android:textSize="@dimen/_16sdp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/line_addbank"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/_15sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_rounded_primary"
+                    android:backgroundTint="@color/red_bg"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <ImageView
+                        android:layout_width="@dimen/_18sdp"
+                        android:layout_height="@dimen/_18sdp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/_9sdp"
+                        android:background="@drawable/ic_add"
+                        android:paddingLeft="@dimen/_5sdp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/_4sdp"
+                        android:paddingRight="@dimen/_5sdp"
+                        android:text="@string/add_bank_detials"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_11sdp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollIndicators="none"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:background="@color/whiteCardColor"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/search_layout_black"
+                    android:gravity="center"
+                    android:text="@string/si_no"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_11sdp" />
+
+                <TextView
+                    android:layout_width="@dimen/_115sdp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/search_layout_black"
+                    android:gravity="center"
+                    android:text="@string/upi_id"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_11sdp" />
+
+                <TextView
+                    android:layout_width="@dimen/_165sdp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/search_layout_black"
+                    android:gravity="center"
+                    android:text="@string/bank_name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_11sdp" />
+
+                <TextView
+                    android:layout_width="@dimen/_165sdp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/search_layout_black"
+                    android:gravity="center"
+                    android:text="@string/branch_name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_11sdp" />
+
+                <TextView
+                    android:layout_width="@dimen/_160sdp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/search_layout_black"
+                    android:gravity="center"
+                    android:text="@string/account_holder"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_11sdp" />
+
+                <TextView
+                    android:layout_width="@dimen/_160sdp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/search_layout_black"
+                    android:gravity="center"
+                    android:text="@string/account_number"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_11sdp" />
+
+                <TextView
+                    android:layout_width="@dimen/_160sdp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/search_layout_black"
+                    android:gravity="center"
+                    android:text="@string/ifsc_code"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_11sdp" />
+
+                <TextView
+                    android:layout_width="@dimen/_85sdp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/search_layout_black"
+                    android:gravity="center"
+
+                    android:text="@string/is_default"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_11sdp" />
+
+                <TextView
+                    android:layout_width="@dimen/_90sdp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/search_layout_black"
+                    android:gravity="center"
+                    android:text="@string/status"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_11sdp" />
+
+
+                <TextView
+                    android:layout_width="@dimen/_120sdp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/search_layout_black"
+                    android:gravity="center"
+                    android:text="@string/action"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_11sdp" />
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rec_bankdetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                tools:listitem="@layout/item_receivedorder" />
+
+            <LinearLayout
+                android:id="@+id/line_nodata"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:visibility="gone"
+                android:background="@drawable/search_layout_black"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_1sdp"
+                    android:background="@color/whiteCardColor"
+                    android:gravity="center"
+                    android:text="@string/no_data_available"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_11sdp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

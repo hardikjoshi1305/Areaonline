@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="@dimen/_6sdp"
+            app:cardCornerRadius="0dp"
+
+            android:id="@+id/messageSingleLayout2"
+           >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_6sdp"
+                >
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/message_profile_layout"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:visibility="visible"
+                  />
+
+                <TextView
+                    android:id="@+id/name_text_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toLeftOf="@id/time_text_layout"
+                    android:layout_toRightOf="@id/message_profile_layout"
+                    android:inputType="textPersonName"
+                    android:text="Display Name "
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/time_text_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/name_text_layout"
+                    android:layout_alignBottom="@+id/name_text_layout"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginLeft="@dimen/_12sdp"
+
+                    android:layout_marginRight="@dimen/_4sdp"
+                    android:text="time"
+                    android:textSize="11dp" />
+
+                <TextView
+                    android:id="@+id/message_text_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/name_text_layout"
+                    android:layout_alignStart="@+id/name_text_layout"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/message_profile_layout"
+                    android:text="TextView"
+
+                    android:textColor="@color/grey"
+                    android:textSize="12dp" />
+
+                <ImageView
+                    android:id="@+id/iv_singletick"
+                    android:layout_width="@dimen/_12sdp"
+                    android:layout_height="@dimen/_12sdp"
+                    android:layout_below="@id/time_text_layout"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:layout_marginRight="@dimen/_5sdp"
+
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_baseline_check_24"
+                    app:tint="@color/grey" />
+                <ImageView
+                    android:id="@+id/iv_doubletick"
+                    android:layout_width="@dimen/_12sdp"
+                    android:layout_height="@dimen/_12sdp"
+                    android:layout_below="@id/time_text_layout"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:visibility="gone"
+
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/checkdouble"
+                    app:tint="@color/blue_statusbar" />
+            </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>
+    </RelativeLayout>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_1sdp"
+    android:background="@color/grey_lightcxccc"/>
+</RelativeLayout>

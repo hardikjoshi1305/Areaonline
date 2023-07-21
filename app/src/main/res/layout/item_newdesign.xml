@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rel_list_layout"
+    android:layout_width="@dimen/_106sdp"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/_7sdp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_3sdp"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:layout_marginRight="@dimen/_3sdp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/_4sdp">
+
+                <ImageView
+                    android:id="@+id/iv_listing"
+                    android:layout_width="@dimen/_100sdp"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/logobw"
+                    android:layout_height="@dimen/_100sdp" />
+
+
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_itemtype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home Decor"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/_10sdp" />
+
+            <TextView
+                android:id="@+id/tv_itemname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="Tublight Electrical"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11sdp" />
+            <TextView
+                android:id="@+id/tv_itemdes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:singleLine="true"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/_11sdp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line_rating"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/red_bg"
+                android:padding="@dimen/_3sdp"
+                android:text="4.5"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_8sdp" />
+
+            <RatingBar
+                android:id="@+id/ratingbar"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:progressTint="@color/golden"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:progressBackgroundTint="@color/grey"
+
+                android:numStars="5"
+                android:rating="4.5" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

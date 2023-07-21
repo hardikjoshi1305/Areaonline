@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/line_rating"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_7sdp"
+        android:id="@+id/line_rating2"
+        android:paddingBottom="@dimen/_100sdp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rating &amp; Review"
+            android:textSize="@dimen/_11sdp"
+            android:layout_margin="@dimen/_7sdp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <RatingBar
+            android:id="@+id/ratingbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:progressBackgroundTint="@color/grey_light2222"
+            android:progressTint="@color/golden"
+            android:secondaryProgressTint="@color/golden"
+            android:layout_margin="@dimen/_7sdp"
+            android:layout_marginTop="@dimen/_15sdp"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_7sdp"
+
+            app:hintTextColor="@color/grey"
+
+            android:layout_marginTop="@dimen/_15sdp"
+            style="@style/TextInputLayoutStyle">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_80sdp"
+                android:id="@+id/et_SComment"
+
+                android:hint="Enter Comment Here......"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/cirsubmitrate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/login_button_bk"
+            android:text="Submit"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:textColor="@color/whiteTextColor"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rec_comment"
+            tools:listitem="@layout/item_commentlist"
+            android:layout_marginTop="@dimen/_10sdp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/btm_listing"
+        android:icon="@drawable/ic_baseline_groups_24"
+        android:title="Listing" />
+    <item
+        android:id="@+id/btm_addshop"
+        android:icon="@drawable/ic_baseline_add_business_24"
+        android:title="Add Shop" />
+    <item
+        android:id="@+id/btn_homme"
+        android:title="" />
+    <item
+        android:id="@+id/btm_franchise"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        android:title="Cart" />
+    <item
+        android:id="@+id/btn_Share"
+        android:icon="@drawable/ic_baseline_share_24"
+        android:title="Share" />
+</menu>

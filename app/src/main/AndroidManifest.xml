@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.areaonline">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- <uses-permission android:name="android.permission.RECEIVE_SMS" /> -->
+    <!-- <uses-permission android:name="android.permission.READ_SMS" /> -->
+    <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE" /> -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <queries>
+        <intent>
+            <action android:name="com.google.android.youtube.api.service.START" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AreaOnline"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:appComponentFactory">
+        <activity
+            android:name=".shopowner.activity.AddBank_Activity"
+            android:exported="true"
+            android:parentActivityName=".shopowner.activity.BankDetail_Activity"
+            android:theme="@style/Theme.AreaOnline2" />
+        <activity
+            android:name=".shopowner.activity.BankDetail_Activity"
+            android:exported="true"
+            android:parentActivityName=".shopowner.activity.DashBoard_Activity"
+            android:theme="@style/Theme.AreaOnline2" />
+        <activity
+            android:name=".shopowner.activity.Track_OrderActivity"
+            android:exported="true"
+            android:parentActivityName=".shopowner.activity.Detail_Order_Activity"
+            android:theme="@style/Theme.AreaOnline2" />
+        <activity
+            android:name=".shopowner.activity.Detail_Order_Activity"
+            android:exported="true"
+            android:parentActivityName=".shopowner.activity.My_OrderActivity"
+            android:theme="@style/Theme.AreaOnline2" />
+        <activity
+            android:name=".shopowner.activity.Receivedorder_Activity"
+            android:exported="true"
+            android:parentActivityName=".shopowner.activity.DashBoard_Activity"
+            android:theme="@style/Theme.AreaOnline2" />
+        <activity
+            android:name=".shopowner.activity.My_OrderActivity"
+            android:exported="true"
+            android:parentActivityName=".shopowner.activity.DashBoard_Activity"
+            android:theme="@style/Theme.AreaOnline2" />
+        <activity
+            android:name=".user.activity.Checkout_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".user.activity.ViewCart_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Disconnected_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".user.activity.Contact_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".user.activity.Messaging_Activity"
+            android:exported="true"
+            android:theme="@style/Theme.AreaOnline2" />
+        <activity
+            android:name=".user.activity.Verify_OTP_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".user.activity.Loginwith_OTP"
+            android:exported="true" />
+        <activity
+            android:name=".Notification_Activity"
+            android:exported="true"
+            android:theme="@style/Theme.AreaOnline" />
+        <activity
+            android:name=".user.activity.SearchFilter_Activity"
+            android:exported="true"
+            android:theme="@style/Theme.AreaOnline" />
+        <activity
+            android:name=".user.activity.CustomerSupport_Activity"
+            android:exported="true"
+            android:parentActivityName=".user.activity.MainActivity2"
+            android:theme="@style/Theme.AreaOnline2" />
+        <activity
+            android:name=".user.activity.ProductView_Activity"
+            android:exported="true"
+            android:theme="@style/Theme.AreaOnline" />
+        <activity
+            android:name=".user.activity.Search_Activity"
+            android:exported="true"
+            android:parentActivityName=".user.activity.MainActivity2"
+            android:theme="@style/Theme.AreaOnline" />
+        <activity
+            android:name=".shopowner.activity.EditProduct_Activity"
+            android:exported="true"
+            android:parentActivityName=".shopowner.activity.Shop_Listing2"
+            android:theme="@style/Theme.AreaOnline2" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name=".shopowner.activity.AddShopActivity"
+            android:exported="true"
+            android:parentActivityName=".shopowner.activity.Shop_Listing2"
+            android:theme="@style/Theme.AreaOnline2" />
+        <activity
+            android:name=".channelpartner.activity.Register_Channel_Activity"
+            android:theme="@style/Theme.AreaOnline" />
+        <activity
+            android:name=".channelpartner.activity.Member_Detail_Activity"
+            android:exported="true"
+            android:parentActivityName=".channelpartner.activity.ShowMemberActivity"
+            android:theme="@style/Theme.AreaOnline2" />
+        <activity
+            android:name=".shopowner.activity.SubscribeActivity"
+            android:exported="true"
+            android:parentActivityName=".shopowner.activity.DashBoard_Activity"
+            android:theme="@style/Theme.AreaOnline" />
+        <activity
+            android:name=".channelpartner.activity.Onlinepayment_EditActivity"
+            android:exported="true"
+            android:parentActivityName=".shopowner.activity.OnlinePaymentActivity"
+            android:theme="@style/Theme.AreaOnline2" />
+        <activity
+            android:name=".shopowner.activity.Review_DetailActivity"
+            android:exported="true"
+            android:parentActivityName=".shopowner.activity.Rating_ReviewActivity"
+            android:theme="@style/Theme.AreaOnline2" />
+        <activity
+            android:name=".shopowner.activity.View_ShopDetail_Activity"
+            android:exported="true"
+            android:parentActivityName=".shopowner.activity.Shop_ListingActivity"
+            android:theme="@style/Theme.AreaOnline2" />
+        <activity
+            android:name=".channelpartner.activity.DashBoard_Activity"
+            android:theme="@style/Theme.AreaOnline" />
+        <activity
+            android:name=".channelpartner.activity.Rating_ReviewActivity"
+            android:theme="@style/Theme.AreaOnline2" />
+        <activity
+            android:name=".channelpartner.activity.Setting_Activity"
+            android:theme="@style/Theme.AreaOnline2" />
+        <activity
+            android:name=".channelpartner.activity.ChangePass_Activity"
+            android:parentActivityName=".channelpartner.activity.DashBoard_Activity"
+            android:theme="@style/Theme.AreaOnline2" />
+        <activity
+            android:name=".channelpartner.activity.ShowMemberActivity"
+            android:parentActivityName=".channelpartner.activity.DashBoard_Activity"
+            android:theme="@style/Theme.AreaOnline2" />
+        <activity
+            android:name=".channelpartner.activity.TransactionHistoryActivity"
+            android:parentActivityName=".channelpartner.activity.DashBoard_Activity"
+            android:theme="@style/Theme.AreaOnline2" />
+        <activity
+            android:name=".channelpartner.activity.Manage_Profile_Activity"
+            android:parentActivityName=".channelpartner.activity.DashBoard_Activity"
+            android:theme="@style/Theme.AreaOnline2" />
+        <activity
+            android:name=".shopowner.activity.EditShopActivity"
+            android:exported="true"
+            android:parentActivityName=".shopowner.activity.Shop_ListingActivity"
+            android:theme="@style/Theme.AreaOnline2" />
+        <activity
+            android:name=".shopowner.activity.AddProduct_Activity"
+            android:exported="true"
+            android:parentActivityName=".shopowner.activity.Product_Service_activity"
+            android:theme="@style/Theme.AreaOnline2" />
+        <activity
+            android:name=".shopowner.activity.ChangePass_Activity"
+            android:exported="true"
+            android:parentActivityName=".shopowner.activity.DashBoard_Activity"
+            android:theme="@style/Theme.AreaOnline2" />
+        <activity
+            android:name=".shopowner.activity.Setting_Activity"
+            android:exported="true"
+            android:parentActivityName=".shopowner.activity.DashBoard_Activity"
+            android:theme="@style/Theme.AreaOnline2" />
+        <activity
+            android:name=".shopowner.activity.Rating_ReviewActivity"
+            android:exported="true"
+            android:parentActivityName=".shopowner.activity.DashBoard_Activity"
+            android:theme="@style/Theme.AreaOnline2" />
+        <activity
+            android:name=".shopowner.activity.ChequePayment_activity"
+            android:exported="true"
+            android:parentActivityName=".shopowner.activity.DashBoard_Activity"
+            android:theme="@style/Theme.AreaOnline2" />
+        <activity
+            android:name=".shopowner.activity.OnlinePaymentActivity"
+            android:exported="true"
+            android:parentActivityName=".shopowner.activity.DashBoard_Activity"
+            android:theme="@style/Theme.AreaOnline2" />
+        <activity
+            android:name=".shopowner.activity.Product_Service_activity"
+            android:exported="true"
+            android:parentActivityName=".shopowner.activity.DashBoard_Activity"
+            android:theme="@style/Theme.AreaOnline2" />
+        <activity
+            android:name=".shopowner.activity.Shop_ListingActivity"
+            android:parentActivityName=".shopowner.activity.DashBoard_Activity"
+            android:theme="@style/Theme.AreaOnline2" />
+        <activity
+            android:name=".shopowner.activity.Shop_Listing2"
+            android:parentActivityName=".shopowner.activity.DashBoard_Activity"
+            android:theme="@style/Theme.AreaOnline2" />
+        <activity
+            android:name=".shopowner.activity.DashBoard_Activity"
+            android:theme="@style/Theme.AreaOnline" />
+        <activity
+            android:name=".user.activity.Detail_Page_Activity"
+            android:theme="@style/Theme.AreaOnline" />
+        <activity
+            android:name=".user.activity.OTP_Activity"
+            android:parentActivityName=".user.activity.Register_Activity"
+            android:theme="@style/Theme.AreaOnline2" />
+        <activity
+            android:name=".user.activity.MainActivity2"
+            android:theme="@style/Theme.AreaOnline"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".user.activity.Register_Activity" />
+        <activity android:name=".user.activity.LoginActivity" />
+        <activity android:name=".user.activity.MainActivity" />
+        <activity
+            android:name=".user.activity.Welcome_Activity"
+            android:theme="@style/Theme.AreaOnline" />
+        <activity
+            android:name=".user.activity.Listing_Activity"
+            android:parentActivityName=".user.activity.MainActivity2" />
+        <activity
+            android:name=".user.activity.SplashActivity"
+            android:theme="@style/Theme.AreaOnline">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".shopowner.activity.FailedTransactionActivity"
+            android:exported="true"
+            android:parentActivityName=".shopowner.activity.DashBoard_Activity"
+            android:theme="@style/Theme.AreaOnline2" />
+
+        <service
+            android:name=".utils.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name=".MyBroadcastReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.auth.api.phone.SMS_RETRIEVED" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.truecaller.android.sdk.PartnerKey"
+            android:value="@string/trucallberapikey" />
+        <!--
+ Set custom default icon. This is used when no icon is set for incoming notification messages.
+     See README(https://goo.gl/l4GJaQ) for more.
+        -->
+        <!-- <meta-data -->
+        <!-- android:name="com.google.firebase.messaging.default_notification_icon" -->
+        <!-- android:resource="@drawable/ic_launcher_background" /> -->
+        <!--
+ Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/red_bg" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/areasmallnotilogo" />
+        <!--
+ Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <!-- <meta-data -->
+        <!-- android:name="com.google.firebase.messaging.default_notification_color" -->
+        <!-- android:resource="@color/red_bg" /> -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.areaonline.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

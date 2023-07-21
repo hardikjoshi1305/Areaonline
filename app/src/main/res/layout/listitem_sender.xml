@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp">
+
+    <TextView
+        android:id="@+id/text_gchat_date_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:paddingStart="8dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="@dimen/_10sdp"
+        android:text="June 10"
+        android:textColor="#686767"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/layout_gchat_container_me"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_xlarge"
+        android:layout_marginLeft="@dimen/spacing_xlarge"
+        android:gravity="end|right"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/spacing_middle"
+        android:paddingTop="1dp"
+        android:paddingRight="@dimen/spacing_middle"
+        android:paddingBottom="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_gchat_date_me">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_gchat_message_me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_small"
+            android:minHeight="32dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="9dp"
+            app:cardElevation="1dp"
+            app:cardUseCompatPadding="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:minWidth="100dp"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/spacing_medium"
+                android:paddingTop="@dimen/spacing_medium"
+                android:paddingRight="@dimen/spacing_medium"
+                android:paddingBottom="@dimen/spacing_medium">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_doc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingLeft="@dimen/_7sdp"
+                        android:src="@drawable/ic_baseline_insert_drive_file_24"
+                        android:visibility="visible"
+                        app:tint="@color/grey" />
+
+                    <ProgressBar
+                        android:id="@+id/progressss"
+                        style="?android:attr/progressBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:indeterminateTint="@color/grey"
+                        android:paddingLeft="@dimen/_7sdp"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/text_gchat_message_me"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/spacing_medium"
+                        android:layout_marginRight="@dimen/spacing_medium"
+                        android:text="Message "
+                        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|bottom"
+                    android:layout_marginLeft="@dimen/_4sdp"
+                    android:gravity="bottom"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/text_gchat_timestamp_me"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="02:30 AM"
+                        android:textColor="#999999"
+                        android:textSize="10sp" />
+                    <ImageView
+                        android:id="@+id/iv_singletick"
+                        android:layout_width="@dimen/_12sdp"
+                        android:layout_height="@dimen/_12sdp"
+                        android:layout_marginLeft="@dimen/_4sdp"
+                        android:visibility="visible"
+
+                       android:src="@drawable/ic_baseline_check_24"
+                        app:tint="@color/grey" />
+                    <ImageView
+                        android:id="@+id/iv_doubletick"
+                        android:layout_width="@dimen/_12sdp"
+                        android:layout_height="@dimen/_12sdp"
+                        android:src="@drawable/checkdouble"
+                        android:visibility="gone"
+                        android:layout_marginLeft="@dimen/_4sdp"
+
+                        app:tint="@color/blue_statusbar" />
+
+                    <View
+                        android:layout_width="@dimen/spacing_medium"
+                        android:layout_height="0dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

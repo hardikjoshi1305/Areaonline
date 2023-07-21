@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="blackedit">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_trans">#30FFFFFF</color>
+    <color name="grey_font">#ff9e9e9e</color>
+    <color name="grey_font2">#818080</color>
+    <color name="overlay_dark_10">#1A000000</color>
+    <color name="overlay_dark_20">#33000000</color>
+    <color name="blue_light">#2873F0</color>
+<!--    <color name="blue_light2">#306D9EEF</color>-->
+    <color name="blue_light2">#30D21E2B</color>
+    <color name="_bg___14_success_1_color">#f5f6f8</color>
+
+    <color name="red_light">#EDD1D2</color>
+    <color name="red_light2">#ED9299</color>
+    <color name="red_bg">#D21E2B</color>
+    <color name="reccd_bg">#F1A29C</color>
+    <color name="golden">#F4CF12</color>
+    <color name="blue_statusbar">#2468D7</color>
+    <color name="grey">#5D5D5D</color>
+    <color name="pink">#F4AEAE</color>
+    <color name="green">#9EEA8D</color>
+    <color name="green_dark">#4BE828</color>
+    <color name="green_valid">#00C853</color>
+    <color name="orange">#91A1F8</color>
+    <color name="grey_light">#E8E3E3</color>
+    <color name="grey_lightcx">#F1EEEE</color>
+    <color name="grey_lightcxccc">#F8F6F6</color>
+    <color name="grey_light2222">#C1C0C0</color>
+    <color name="grey_light23333">#B8B2B2</color>
+    <color name="transperant">#00000000</color>
+    <color name="transperant_black">#95FA0A0A</color>
+    <color name="grey_lightest">#FAFAFA</color>
+    <color name="whhhhh">#E6E5E5</color>
+    <color name="red">#E84343</color>
+    <color name="search_et_color">#5B688F</color>
+    <color name="colorPrimaryDark">#595A5A</color>
+    <color name="btnregister">#18A0FB</color>
+    <color name="btnregistccer">#60B7F1</color>
+    <!--colors for modern ui-->
+    <color name="whiteTextColor">#fff</color>
+    <color name="primaryTextColor">#2661FA</color>
+    <color name="loginBkColor">#f0f0f0</color>
+    <color name="orrr">#EFB02F</color>
+    <color name="golden_22">#F08A0A</color>
+
+    <!--colros for card-->
+    <color name="whiteCardColor">#fff</color>
+    <color name="color">#515c6f</color>
+
+</resources>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipeRefreshLayout"
+    android:layout_height="match_parent"
+    tools:context=".shopowner.activity.Receivedorder_Activity"
+    android:layout_width="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+   >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_18sdp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Received Orders"
+                    android:textColor="@color/red_bg"
+                    android:textSize="@dimen/_16sdp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_55sdp"
+                    android:layout_marginRight="@dimen/_15sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_rounded_primary"
+                    android:orientation="horizontal"
+                    android:visibility="invisible">
+
+                    <ImageView
+                        android:layout_width="@dimen/_18sdp"
+                        android:layout_height="@dimen/_18sdp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/_9sdp"
+                        android:background="@drawable/ic_baseline_refresh_24"
+                        android:paddingLeft="@dimen/_5sdp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/_4sdp"
+                        android:paddingRight="@dimen/_5sdp"
+                        android:text="Refresh"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_11sdp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:orientation="vertical">
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="@dimen/_35sdp"-->
+<!--                    android:layout_marginLeft="@dimen/_5sdp"-->
+<!--                    android:layout_marginTop="@dimen/_5sdp"-->
+<!--                    android:layout_marginRight="@dimen/_5sdp"-->
+<!--                    android:background="@color/whiteCardColor"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="@dimen/_35sdp"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:background="@drawable/search_layout_black"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="SI.No"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="@dimen/_11sdp" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="@dimen/_165sdp"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:background="@drawable/search_layout_black"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="Product Name"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="@dimen/_11sdp" />-->
+<!--                    <TextView-->
+<!--                        android:layout_width="@dimen/_165sdp"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:background="@drawable/search_layout_black"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="Buyer Name"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="@dimen/_11sdp" />-->
+<!--                    <TextView-->
+<!--                        android:layout_width="@dimen/_165sdp"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:background="@drawable/search_layout_black"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="Buyer Contact"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="@dimen/_11sdp" />-->
+<!--                    <TextView-->
+<!--                        android:layout_width="@dimen/_60sdp"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:background="@drawable/search_layout_black"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="Price"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="@dimen/_11sdp" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="@dimen/_90sdp"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:background="@drawable/search_layout_black"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="Status"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="@dimen/_11sdp" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="@dimen/_85sdp"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:background="@drawable/search_layout_black"-->
+<!--                        android:gravity="center"-->
+
+<!--                        android:text="Order Date"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="@dimen/_11sdp" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="@dimen/_110sdp"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:background="@drawable/search_layout_black"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="Payment Mode"-->
+
+
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="@dimen/_11sdp" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="@dimen/_230sdp"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:background="@drawable/search_layout_black"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="Action"-->
+
+
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="@dimen/_11sdp" />-->
+
+<!--                </LinearLayout>-->
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rec_receivedorder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:listitem="@layout/item_myorderfinal"/>
+                <LinearLayout
+                    android:id="@+id/line_nodata"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:background="@drawable/search_layout_black"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/_1sdp"
+                        android:background="@color/whiteCardColor"
+                        android:gravity="center"
+                        android:text="No Data Available"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_11sdp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

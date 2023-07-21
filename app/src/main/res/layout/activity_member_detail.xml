@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey_lightest"
+    tools:context=".channelpartner.activity.Member_Detail_Activity">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:scrollIndicators="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:orientation="vertical">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_18sdp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Member / Customer"
+                            android:textStyle="bold"
+                            android:textColor="@color/red_bg"
+                            android:textSize="@dimen/_16sdp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_55sdp"
+                            android:layout_marginRight="@dimen/_15sdp"
+                            android:layout_weight="1"
+                            android:visibility="invisible"
+                            android:background="@drawable/btn_rounded_primary"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_18sdp"
+                                android:layout_height="@dimen/_18sdp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="@dimen/_9sdp"
+                                android:background="@drawable/ic_baseline_refresh_24"
+                                android:paddingLeft="@dimen/_5sdp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="@dimen/_4sdp"
+                                android:paddingRight="@dimen/_5sdp"
+                                android:text="Refresh"
+                                android:textColor="@color/white"
+                                 android:textSize="@dimen/_11sdp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_11sdp"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_40sdp"
+                            android:layout_marginLeft="@dimen/_35sdp"
+                            android:layout_weight="1"
+                            android:background="@drawable/btn_rounded_primary"
+                            android:backgroundTint="@color/red_bg"
+
+                            android:orientation="horizontal"
+                            android:visibility="invisible">
+
+                            <ImageView
+                                android:layout_width="@dimen/_18sdp"
+                                android:layout_height="@dimen/_18sdp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="@dimen/_7sdp"
+                                android:background="@drawable/ic_baseline_add_24"
+                                android:paddingLeft="@dimen/_5sdp"
+                                android:text="Add Shop Details" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="@dimen/_4sdp"
+                                android:paddingRight="@dimen/_5sdp"
+                                android:text="Add Shop Details"
+
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_9sdp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/line_showmember"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/_40sdp"
+                            android:layout_marginRight="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:padding="@dimen/_9sdp"
+                            android:background="@drawable/btn_rounded_primary"
+
+                            android:backgroundTint="@color/red_bg"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_18sdp"
+                                android:layout_height="@dimen/_18sdp"
+                                android:layout_gravity="center_vertical"
+                                android:background="@drawable/ic_baseline_segment_24"
+                                android:scaleType="centerCrop"
+                                android:text="Add Shop Details" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="@dimen/_2sdp"
+
+                                android:text="Show Member"
+                                android:textColor="@color/white"
+                                 android:textSize="@dimen/_11sdp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                android:scrollIndicators="none">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_15sdp">
+                <LinearLayout
+                    android:id="@+id/liii_1"
+                    android:layout_width="@dimen/_120sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/search_layout"
+                    android:padding="@dimen/_3sdp"
+                    android:layout_marginLeft="@dimen/_7sdp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="@dimen/_16sdp"
+                        android:layout_height="@dimen/_16sdp"
+                        app:srcCompat="@drawable/ic_baseline_person_24"
+                        app:tint="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                         android:textSize="@dimen/_11sdp"
+                        android:text="Member Profile"
+                        android:layout_marginLeft="@dimen/_4sdp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/liii_2"
+                    android:layout_width="@dimen/_120sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/search_layout_prog2"
+                    android:padding="@dimen/_3sdp"
+                    android:layout_marginLeft="@dimen/_7sdp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="@dimen/_16sdp"
+                        android:layout_height="@dimen/_16sdp"
+                        app:srcCompat="@drawable/ic_baseline_shopping_bag_24"
+                        app:tint="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                         android:textSize="@dimen/_11sdp"
+                        android:text="Shop Details"
+                        android:layout_marginLeft="@dimen/_4sdp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/liii_3"
+                    android:layout_width="@dimen/_130sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/search_layout_prog2"
+                    android:padding="@dimen/_3sdp"
+                    android:layout_marginLeft="@dimen/_7sdp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="@dimen/_16sdp"
+                        android:layout_height="@dimen/_16sdp"
+                        app:srcCompat="@drawable/ic_baseline_local_offer_24"
+                        app:tint="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                         android:textSize="@dimen/_11sdp"
+                        android:text="Product &amp; Services"
+                        android:layout_marginLeft="@dimen/_4sdp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/liii_4"
+                    android:layout_width="@dimen/_120sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/search_layout_prog2"
+                    android:padding="@dimen/_3sdp"
+                    android:layout_marginLeft="@dimen/_7sdp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="@dimen/_16sdp"
+                        android:layout_height="@dimen/_16sdp"
+                        android:text="@string/rs"
+                        android:textSize="@dimen/_15sdp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        app:tint="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                         android:textSize="@dimen/_11sdp"
+                        android:text="Payment History"
+                        android:layout_marginLeft="@dimen/_4sdp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            </HorizontalScrollView>
+
+
+
+        </LinearLayout>
+
+        <include layout="@layout/layout_channel_memberprofile"
+            android:id="@+id/layout1"
+            android:visibility="visible"/>
+        <include layout="@layout/layout_channel_shopdetail"
+            android:id="@+id/layout2"
+            android:visibility="gone"/>
+        <include layout="@layout/layout_channel_product"
+            android:id="@+id/layout3"
+            android:visibility="gone"/>
+        <include layout="@layout/layout_channel_payment"
+            android:id="@+id/layout4"
+            android:visibility="gone"/>
+
+
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

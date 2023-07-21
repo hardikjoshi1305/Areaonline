@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/layout_group"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="?selectableItemBackground"
+    >
+    <LinearLayout
+        android:id="@+id/line_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:paddingBottom="@dimen/_5sdp"
+        android:orientation="vertical">
+        <View
+            android:id="@+id/v_line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/grey_light"
+            android:layout_marginTop="@dimen/_9sdp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Application Preference"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/red_bg"
+            android:layout_marginBottom="@dimen/_4sdp"
+
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_9sdp"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rel_main"
+        android:layout_below="@id/line_line"
+        android:paddingTop="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_10sdp"
+        android:paddingRight="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_10sdp">
+
+    <ImageView
+        android:id="@+id/icon_menu"
+        android:layout_width="@dimen/_18sdp"
+        android:layout_height="@dimen/_18sdp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="@dimen/_9sdp"
+        app:backgroundTint="@color/red_bg"
+        app:tint="@color/red_bg" />
+
+        <TextView
+            android:id="@+id/lblListHeader"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
+            android:text=""
+            android:textColor="@color/red_bg"
+            android:textSize="@dimen/_11sdp" />
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/ivGroupIndicator"
+        android:layout_width="@dimen/_12sdp"
+        android:layout_height="@dimen/_12sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_centerVertical="true"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        app:tint="@color/red_bg"
+
+        />
+
+    <TextView
+        android:id="@+id/is_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_3sdp"
+        android:textSize="@dimen/_6sdp"
+        android:textColor="@android:color/white"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/rounded_label"
+        android:text="New"
+        />
+
+
+
+</RelativeLayout>

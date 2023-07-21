@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_shop"
+        android:title="Shop"
+        android:checked="true"
+        android:icon="@drawable/ic_baseline_shopping_bag_24"/>
+    <item
+        android:id="@+id/bottom_hotel"
+        android:title="Hotel"
+        android:icon="@drawable/ic_baseline_hotel_24"/>
+    <item
+        android:id="@+id/bottom_restaurants"
+        android:title="Restaurants"
+        android:icon="@drawable/ic_baseline_food_bank_24"/>
+    <item
+        android:id="@+id/bottom_bar"
+        android:title="Bar"
+        android:icon="@drawable/ic_baseline_local_bar_24"/>
+    <item
+        android:id="@+id/bottom_more"
+        android:title="More"
+        android:icon="@drawable/ic_baseline_more_horiz_24"/>
+</menu>

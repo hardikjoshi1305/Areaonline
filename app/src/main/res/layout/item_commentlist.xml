@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_insert_comment_24"
+                app:tint="@color/red_bg" />
+
+            <TextView
+                android:id="@+id/tv_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:text="HRD"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11sdp"
+                android:textStyle="bold" />
+
+
+            <RatingBar
+                android:id="@+id/comment_ratingbar"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+
+                android:numStars="5"
+                android:progressBackgroundTint="@color/grey"
+                android:progressTint="@color/golden" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_commentdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_30sdp"
+
+            android:text="13may,1997"
+            android:layout_weight="1"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_9sdp" />
+
+        <TextView
+            android:id="@+id/tv_reviewcomment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:text="@string/amul_des"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_10sdp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

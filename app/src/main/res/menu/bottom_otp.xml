@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_member"
+        android:title="Member"
+        android:icon="@drawable/ic_baseline_add_business_24"
+        />
+
+<!--    <item-->
+<!--        android:id="@+id/bottom_owner"-->
+<!--        android:title="Channel Partner"-->
+<!--        android:icon="@drawable/franchise"-->
+
+<!--        />-->
+</menu>

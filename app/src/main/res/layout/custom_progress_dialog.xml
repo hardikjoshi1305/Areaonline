@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:gpb="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/_33sdp"
+
+    android:background="@android:color/transparent"
+    android:gravity="top">
+
+    <LinearLayout
+        android:id="@+id/lyt_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+
+        android:orientation="vertical">
+
+        <!--        <com.areaonline.utils.ViewLoadingDotsBounce-->
+        <!--            android:layout_width="50dp"-->
+        <!--            android:layout_height="40dp"-->
+        <!--            android:background="@color/red_bg" />-->
+<!--        <com.wang.avi.AVLoadingIndicatorView-->
+<!--            android:id="@+id/avi"-->
+<!--            style="@style/AVLoadingIndicatorView"-->
+<!--            android:layout_width="60sp"-->
+<!--            android:layout_height="60sp"-->
+<!--            android:visibility="visible"-->
+<!--            app:indicatorColor="@color/red_bg"-->
+<!--            app:indicatorName="LineScaleIndicator" />-->
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_29sdp"
+            android:id="@+id/avi"
+            android:progressTint="@color/white"
+            android:indeterminateTint="@color/golden"
+            android:indeterminate="true"
+            />
+    </LinearLayout>
+
+    <!--    <com.wang.avi.AVLoadingIndicatorView-->
+    <!--        android:id="@+id/avi"-->
+    <!--        style="@style/AVLoadingIndicatorView"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        app:indicatorColor="@color/colorAccent"-->
+    <!--        app:indicatorName="LineSpinFadeLoaderIndicator" />-->
+
+</LinearLayout>

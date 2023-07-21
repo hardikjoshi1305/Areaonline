@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:id="@+id/rel_enter_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_15sdp">
+
+        <TextView
+            android:id="@+id/tv_forget_password"
+            style="@style/viewParent"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="Forgot Password?"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputEmail"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_forget_password"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:textColorHint="@color/grey_font2"
+          >
+
+            <EditText
+                android:id="@+id/et_SEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:hint=" Enter Your Email Address"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/black"
+                android:textColorHint="@color/grey"
+                android:textSize="@dimen/_12sdp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            style="@style/viewParent"
+            android:layout_below="@id/textInputEmail"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:text="New password will be sent to this email"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_9sdp" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textInputEmail"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_39sdp"
+            android:background="@drawable/btn_rounded_primary"
+            android:text="Submit"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

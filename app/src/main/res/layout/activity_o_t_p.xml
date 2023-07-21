@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bk1"
+    tools:context=".user.activity.OTP_Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/rel_logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:gravity="center"
+            android:paddingBottom="@dimen/_40sdp">
+
+            <ImageView
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_80sdp"
+                android:scaleType="fitXY"
+                android:src="@drawable/logo"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rel_logo"
+            android:layout_centerHorizontal="true"
+            android:text="OTP"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_22sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_ph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_signup"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="Sent to your phone"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp" />
+
+        <com.chaos.view.PinView
+            android:id="@+id/pinview"
+            style="@style/PinWidget.PinView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_ph"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_19sdp"
+            android:cursorVisible="true"
+            android:gravity="center"
+            android:inputType="number"
+            android:itemBackground="@color/red_light2"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="@dimen/_14sdp"
+            android:textStyle="bold"
+            app:cursorColor="@color/black"
+            app:cursorWidth="@dimen/_2sdp"
+            app:hideLineWhenFilled="true"
+            app:itemCount="6"
+            app:itemHeight="@dimen/_50sdp"
+            app:itemRadius="@dimen/_4sdp"
+            app:itemSpacing="@dimen/_6sdp"
+            app:itemWidth="@dimen/_37sdp"
+            app:lineWidth="@dimen/_1sdp"
+            app:viewType="rectangle">
+
+        </com.chaos.view.PinView>
+
+        <Button
+            android:id="@+id/btn_verify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pinview"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:background="@drawable/login_button_bk"
+            android:fontFamily="@font/inter_semibold"
+            android:gravity="center"
+            android:text="Verify"
+            android:textColor="@color/whiteTextColor"
+            android:textStyle="bold" />
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/tv_forget_password"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_centerHorizontal="true"-->
+        <!--            android:text="Resend ?"-->
+        <!--            android:layout_below="@id/btn_verify"-->
+        <!--            android:textColor="@color/black"-->
+        <!--            android:textSize="@dimen/_14sdp"/>-->
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

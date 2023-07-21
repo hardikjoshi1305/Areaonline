@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bk1"
+    android:focusableInTouchMode="true"
+    android:animateLayoutChanges="true"
+    tools:context=".user.activity.LoginActivity"
+    android:theme="@style/Theme.AreaOnline">
+
+    <LinearLayout
+        android:id="@+id/lin_signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_marginLeft="@dimen/_6sdp"
+        android:layout_marginTop="@dimen/_45sdp"
+        android:background="@color/red_bg"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/_3sdp"
+            app:srcCompat="@drawable/ic_baseline_person_outline_24"
+            app:tint="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/inter_regular"
+            android:paddingLeft="@dimen/_5sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:paddingRight="@dimen/_5sdp"
+            android:text="  Sign IN"
+            android:textColor="@color/whiteTextColor"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="center_vertical"
+            android:paddingRight="@dimen/_3sdp"
+            app:srcCompat="@drawable/menu_small"
+            app:tint="@color/white" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line_signin_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lin_signin"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:visibility="gone"
+
+        android:background="@drawable/search_layout"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp"
+        app:backgroundTint="@color/red_bg">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lin_listbussiness"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                app:srcCompat="@drawable/ic_baseline_add_business_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/_3sdp"
+
+                android:text="List Your Bussiness" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lin_franchises"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                app:srcCompat="@drawable/ic_baseline_person_24"
+                app:tint="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/_3sdp"
+                android:text="Become a Franchise" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <!--    <include layout="@layout/layout_register"/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_centerInParent="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/loginHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/loginViewsMargin"
+            android:fontFamily="@font/inter_semibold"
+            android:text="Login" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputEmail"
+            style="@style/parent"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="@dimen/loginViewsMargin">
+
+            <EditText
+                android:id="@+id/editTextEmail"
+                style="@style/modifiedEditText"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:textSize="@dimen/_12sdp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputPassword"
+            style="@style/parent"
+
+            android:layout_marginTop="@dimen/loginViewsMargin">
+
+            <EditText
+                android:id="@+id/editTextPassword"
+                style="@style/modifiedEditText"
+                android:hint="Password"
+
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:textSize="@dimen/_12sdp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/tv_forgotpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:padding="@dimen/_1sdp"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:gravity="end"
+            android:text="Forgot Password?"
+            android:textAlignment="textEnd"
+            android:textColor="@color/red"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/cirLoginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="@dimen/loginViewsMargin"
+            android:background="@drawable/login_button_bk"
+            android:fontFamily="@font/inter_semibold"
+            android:text="Login"
+            android:textColor="@color/whiteTextColor"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_becomefra"
+            style="@style/parent"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:gravity="end"
+            android:onClick="onClick_franchises"
+            android:text="Become a Franchise"
+            android:textAlignment="textEnd"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_redi_register"
+            style="@style/parent"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:gravity="end"
+            android:onClick="onClick"
+            android:text="@string/login_signup_hint"
+            android:textAlignment="textEnd"
+            android:textColor="@color/red"
+            android:textStyle="bold" />
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_23sdp"
+            android:visibility="visible"
+            app:cardMaxElevation="@dimen/_5sdp"
+            android:backgroundTint="@color/grey_lightest"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            app:cardElevation="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:fadingEdgeLength="@dimen/_5sdp"
+
+            >
+            <TextView
+                android:id="@+id/tv_loginwithotp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_10sdp"
+                android:gravity="center"
+                android:text="Login With OTP "
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_23sdp"
+            app:cardMaxElevation="@dimen/_5sdp"
+            app:strokeWidth="@dimen/_1sdp"
+            android:visibility="invisible"
+            app:strokeColor="@color/blue_light"
+            android:backgroundTint="@color/grey_lightest"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            app:cardElevation="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:fadingEdgeLength="@dimen/_5sdp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="@dimen/_18sdp"
+                    android:layout_height="@dimen/_18sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:src="@drawable/ic_baseline_call_24"
+                    android:layout_gravity="center_vertical"
+                    app:tint="@color/blue_light" />
+                <TextView
+                    android:id="@+id/tv_truecaller"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:text="Sign in With TrueCaller"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:id="@+id/tv_redi_shopowner_reg"
+            style="@style/parent"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="end"
+            android:onClick="onClick_shop"
+            android:text="List Your Bussiness"
+            android:textAlignment="textEnd"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</RelativeLayout>

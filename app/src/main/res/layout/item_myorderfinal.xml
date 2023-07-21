@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/_15sdp"
+        android:paddingBottom="@dimen/_15sdp"
+        android:id="@+id/lineear_main"
+        android:paddingTop="@dimen/_15sdp">
+
+        <ImageView
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:src="@drawable/logo"
+            android:id="@+id/iv_img"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_9sdp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_productname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amazon Prime Yearly Membership"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11sdp"
+                android:maxLines="2"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/tv_companyname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amazon"
+                android:gravity="center_horizontal"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/_10sdp"
+                android:singleLine="true"
+              />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="245"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/tv_price"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:visibility="gone"
+                    android:layout_gravity="center_horizontal"
+
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ordered on 24-april-2021"
+                android:textColor="@color/grey"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:textSize="@dimen/_10sdp"
+                android:singleLine="true"
+                android:textStyle="normal"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Order status : "
+                    android:textColor="@color/black"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:textSize="@dimen/_10sdp"
+                    android:singleLine="true"
+                    android:textStyle="normal"/>
+                <TextView
+                    android:id="@+id/tv_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Delivered"
+                    android:textColor="@color/blue_light"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:textSize="@dimen/_10sdp"
+                    android:singleLine="true"
+                    android:textStyle="normal"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="@dimen/_17sdp"
+            android:layout_height="@dimen/_17sdp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/_7sdp"
+            android:layout_marginRight="@dimen/_7sdp"
+            android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+            />
+
+    </LinearLayout>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_1sdp"
+    android:background="@color/whhhhh"/>
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "553771664473",
+    "project_id": "areaonline-56e08",
+    "storage_bucket": "areaonline-56e08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553771664473:android:7d32bc46628464cc44dd48",
+        "android_client_info": {
+          "package_name": "com.areaonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553771664473-ge3tq41m5hc0e6bhga24vb61au1gb9kv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6OXxoV4fCJRvCdQR88jgXk0GBVs1v1Jc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553771664473-ge3tq41m5hc0e6bhga24vb61au1gb9kv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

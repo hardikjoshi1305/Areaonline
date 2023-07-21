@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/drawable/login_button_bk.xml" value="0.1275" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/activity_add_bank.xml" value="0.21965579710144928" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/activity_add_product.xml" value="0.2484375" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/activity_add_shop.xml" value="0.12082066869300911" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/activity_bank_detail.xml" value="0.21965579710144928" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/activity_change_pass.xml" value="0.2484375" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/activity_checkout.xml" value="0.21965579710144928" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/activity_cheque_payment.xml" value="0.2484375" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/activity_contact.xml" value="0.2033514492753623" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/activity_dash_board.xml" value="0.2484375" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/activity_detail__page.xml" value="0.11879432624113476" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/activity_detail_order.xml" value="0.176" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/activity_listing.xml" value="0.2484375" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/activity_login.xml" value="0.1381340579710145" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/activity_loginwith_otp.xml" value="0.17481884057971014" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/activity_main2.xml" value="0.22146739130434784" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/activity_messaging.xml" value="0.13360507246376813" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/activity_my_order.xml" value="0.14629629629629629" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/activity_online_payment.xml" value="0.264" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/activity_product_service.xml" value="0.24461538461538462" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/activity_rating_review.xml" value="0.26919602529358627" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/activity_receivedorder.xml" value="0.2484375" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/activity_register.xml" value="0.22780797101449277" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/activity_review_detail.xml" value="0.264" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/activity_search.xml" value="0.2484375" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/activity_setting.xml" value="0.16168478260869565" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/activity_shop__listing1.xml" value="0.2484375" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/activity_splash.xml" value="0.20471014492753623" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/activity_subscribe.xml" value="0.2484375" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/activity_track_order.xml" value="0.2329162656400385" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/activity_welcome.xml" value="0.2" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/app_bar_layout.xml" value="0.176" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/custom_progress_dialog.xml" value="0.23596014492753623" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/custom_progress_dialog22.xml" value="0.2484375" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/demo.xml" value="0.2484375" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/dialog_planexpire.xml" value="0.176" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/fragment_location__search.xml" value="0.20244565217391305" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/fragment_search.xml" value="0.264" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/fragment_welcome_intro.xml" value="0.176" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/import_activity_chat.xml" value="0.13360507246376813" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/item_chequepayment.xml" value="0.2" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/item_courierpopup.xml" value="0.2" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/item_main.xml" value="0.21422101449275363" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/item_myorderfinal.xml" value="0.2484375" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/item_purcharse.xml" value="0.2484375" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/item_ratingreview.xml" value="0.2484375" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/layout_availablity.xml" value="0.17028985507246377" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/layout_dashboard.xml" value="0.2484375" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/layout_edit_basicinfo.xml" value="0.21965579710144928" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/layout_edit_contact.xml" value="0.21965579710144928" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/layout_edit_images22.xml" value="0.21965579710144928" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/layout_edit_location.xml" value="0.21965579710144928" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/layout_edit_schedule.xml" value="0.21965579710144928" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/layout_help_screen.xml" value="0.24728260869565216" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/layout_rating.xml" value="0.2484375" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/listitem_receiver.xml" value="0.13360507246376813" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/listitem_sender.xml" value="0.13360507246376813" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/message_single_layout2.xml" value="0.2033514492753623" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/simple_spinner_dropdown_item.xml" value="0.22327898550724637" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/succesfull.xml" value="0.2484375" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/success_payment.xml" value="0.176" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.24427083333333333" />
+        <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/menu/navigation_menu.xml" value="0.2484375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

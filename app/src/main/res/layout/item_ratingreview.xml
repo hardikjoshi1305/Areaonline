@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:scrollIndicators="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:orientation="horizontal"
+        android:background="@color/whiteCardColor"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp">
+
+        <TextView
+            android:id="@+id/tv_srno"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="match_parent"
+            android:background="@drawable/search_layout_black"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/black"
+             android:textSize="@dimen/_11sdp" />
+
+        <LinearLayout
+            android:layout_width="@dimen/_95sdp"
+            android:layout_height="match_parent"
+            android:background="@drawable/search_layout_black"
+            android:gravity="center"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_username"
+                android:layout_width="@dimen/_95sdp"
+                android:layout_height="match_parent"
+                android:background="@drawable/search_layout_black"
+                android:gravity="center"
+                android:text="Pradeep Kushwaha"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_8sdp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_contactno"
+            android:layout_width="@dimen/_75sdp"
+            android:layout_height="match_parent"
+            android:background="@drawable/search_layout_black"
+            android:gravity="center"
+            android:text="XXXX990160"
+            android:textColor="@color/black"
+             android:textSize="@dimen/_11sdp" />
+
+
+        <LinearLayout
+            android:layout_width="@dimen/_110sdp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/search_layout_black"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_7sdp"
+                android:layout_marginBottom="@dimen/_7sdp"
+                android:background="@drawable/btn_rounded_primary"
+                android:backgroundTint="@color/purple_200"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/listingname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/_3sdp"
+                    android:paddingRight="@dimen/_2sdp"
+                    android:text="ITARSIA INDIA SERVICES"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_9sdp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/_85sdp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/search_layout_black"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="4"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11sdp" />
+
+            <ImageView
+                android:layout_width="@dimen/_17sdp"
+                android:layout_height="@dimen/_17sdp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/_3sdp"
+                app:srcCompat="@drawable/ic_baseline_star_24"
+                app:tint="@color/purple_200" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="@dimen/_110sdp"
+            android:layout_height="match_parent"
+            android:background="@drawable/search_layout_black"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_6sdp"
+                android:layout_marginRight="@dimen/_6sdp"
+
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_category"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="information-technology"
+                    android:textColor="@color/black"
+                     android:textSize="@dimen/_11sdp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/_96sdp"
+            android:layout_height="match_parent"
+            android:background="@drawable/search_layout_black"
+            android:gravity="center"
+            android:paddingLeft="@dimen/_16sdp"
+            android:paddingRight="@dimen/_16sdp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/lin_viewdetail"
+                android:layout_width="@dimen/_28sdp"
+                android:layout_height="@dimen/_28sdp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:background="@drawable/circle_bg"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_7sdp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ic_baseline_remove_red_eye_24"
+                    app:tint="@color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/line_editproduct"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_28sdp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:layout_weight="1"
+                android:visibility="gone"
+                android:background="@drawable/circle_bg"
+                android:backgroundTint="@color/blue_light"
+
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_7sdp"
+                    android:layout_weight="1"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_baseline_border_color_24"
+                    app:tint="@color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/line_deletereview"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_28sdp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/circle_bg"
+                android:layout_weight="1"
+                android:visibility="gone"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:backgroundTint="@color/black"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_7sdp"
+                    app:srcCompat="@drawable/ic_baseline_delete_24"
+                    app:tint="@color/white" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>

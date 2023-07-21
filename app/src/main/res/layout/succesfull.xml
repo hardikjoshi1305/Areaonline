@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:id="@+id/success"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <View
+                android:id="@+id/_bg___14_success_1"
+                android:layout_width="375dp"
+                android:layout_height="@dimen/_500sdp"
+
+                android:layout_centerInParent="true"
+                android:background="@drawable/_bg___14_success_1_shape" />
+
+            <RelativeLayout
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+               >
+
+
+                <RelativeLayout
+                    android:id="@+id/text_ek1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="129dp">
+
+                    <TextView
+                        android:id="@+id/checkout"
+                        android:layout_width="185dp"
+                        android:layout_height="46dp"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_marginLeft="31dp"
+                        android:layout_marginTop="0dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:text="Success"
+                        android:textColor="@color/color"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/y"
+                        android:layout_width="252dp"
+                        android:layout_height="75.5dp"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_marginLeft="-3dp"
+                        android:layout_marginTop="53dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:text="Transcation Successful"
+                        android:textColor="#515c6f"
+                        android:textSize="15sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/button_success"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="43dp"
+                    android:layout_marginLeft="43dp"
+                    android:layout_marginTop="297dp"
+                    android:visibility="gone">
+
+                    <View
+                        android:id="@+id/base"
+                        android:layout_width="165dp"
+                        android:layout_height="46dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/base_shape" />
+
+                    <TextView
+                        android:id="@+id/my_orders"
+                        android:layout_width="109dp"
+                        android:layout_height="18dp"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_marginLeft="28dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:text="Success"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/icon_ek1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="75dp"
+                    android:layout_marginLeft="75dp"
+                    android:layout_marginTop="0dp">
+
+                    <View
+                        android:id="@+id/ellipse_17"
+                        android:layout_width="101dp"
+                        android:layout_height="101dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/ellipse_17_shape" />
+
+                    <ImageView
+                        android:id="@+id/path_23"
+                        android:layout_width="40.389892578125dp"
+                        android:layout_height="31.098571777344dp"
+                        android:layout_marginStart="31dp"
+                        android:layout_marginLeft="31dp"
+                        android:layout_marginTop="36dp"
+                        android:contentDescription="path_23"
+                        android:src="@drawable/path_23" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

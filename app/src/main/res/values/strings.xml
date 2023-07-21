@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">Area Online</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hot_deal">Cum doctus civibus efficiantur in imperdiet deterruisset.</string>
+    <string name="buy_product">Buy Products using SuperCoins</string>
+    <string name="buy_product2">Get exciting offer today</string>
+    <string name="image_view_content_description">image_view_content_description</string>
+    <string name="transition_name">transition_name</string>
+    <string name="trucallberapikey">u0Lou384bf2d76032453ab79c0bfe363cf916</string>
+    <string name="india_s_most_trusted_household_online_market_place">India\'s Household Online Market Place</string>
+
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="login_name_hint">Name</string>
+    <string name="login_mobile_number_hint">Mobile Number</string>
+    <string name="nav_open">open</string>
+    <string name="nav_close">close</string>
+    <string name="pakwa_des">Hosted an event and looking for some catering service? Book your order now and get the best food delivered for your event.</string>
+    <string name="beta_des">Dinners are incomplete without deserts &amp; beverages. The Betel House is such a food hub where you can complete your after dinner cravings. Find a variety of options like Paan, Soda, Milkshakes, ice-creams and Ice Gola Dishes here at our Paan and Soda Hub.</string>
+    <string name="ksr_des">Book your trip now. KSR Tours &amp; Travels helps you to plan a best trip. From bookings cars/bus on rental to ticket bookings, hotel bookings and package tours</string>
+    <string name="motorsound_des">Motorsounds located in Borivali provides car repair services to all its customers. You can find car accessories and services of paint protection ceramic coating &amp; seat cover, matting, sound system, polish, cleaning the interior. We are specialists in creating custom sound designs.</string>
+    <string name="motor_des">Motorglaze located in Borivali provides car repair services to all its customers. You can find car accessories and services of paint protection ceramic coating &amp; seat cover, matting, sound system, polish, cleaning the interior.</string>
+    <string name="rockey_des">Rocky located in Borivali is a designer studio where you can find the latest collection of fabrics and ready-made designer blouses, chaniya choli and gowns. Visit us and find the best traditional clothing for your special occasions.</string>
+    <string name="eye_des">Our eyes are one of the most essential parts of our body and we shouldn’t compromise with it and accessories related to it. Comfort Eye Care is a place located in Borivali, where you can find the best quality products with eye testing, Frames, sunglasses, coloured contact lens, and contact lens, etc. Make purchases and give your eyes the comfort they desire.</string>
+    <string name="para_des">Paradise located in Borivali is a prime spot where you can find the best of traditional men\'s wear. A wide range of pants, shirts, safari suits, pathani, chudidar and sherwani here. We also provide alteration services.</string>
+    <string name="jyoti_des">Want to book a trip? Jyoti Travels established in 2003, is here to help you plan your trips. Serving all our customers with the best of services and memorable trips all our India. Our tour packages also include Shree Ashtavinayak Yatra, Panch Jyotriling, Char Dham Yatra. We are luxury bus tour operators.</string>
+    <string name="amul_des">Amul- India’s most trusted brand when it comes to dairy products. How have won hearts of millions of its customers across the world. Find Natural and different flavour of ice-creams at our shop. We also provide free home delivery facilities above an order of Rs. 150/-</string>
+    <string name="home1">Apple Plus is a shop where you can find exclusive Kids and Ladies Wear.
+
+</string>
+    <string name="whatsapp_msg">Hello!
+
+We have launched our online store and if you would like to check our online catalogue, please visit:
+ https://www.areaonline.in/itarsia-india-services-in-malad-west/information-technology/mobile-app-development/Mumbai/Maharashtra/India/15
+
+
+If you have any questions about ordering online, please call us on 9004900109 and we would be happy to help you.
+
+
+Thank you
+
+ITARSIA INDIA SERVICES
+
+Powered by https://www.areaonline.in</string>
+    <string name="aa">Shop no 4 satellite classic opp. Hanuman temple station road Jogeshwari East - 400060  Mumbai, Maharashtra, India</string>
+    <string name="u_u20b9_472">/u20B9</string>
+    <string name="rs">\u20B9</string>
+    <string name="default_notification_channel_id">""</string>
+    <string name="terms_of_service"><u>Terms of Service</u></string>
+    <string name="privacy_policy"><u>Privacy Policy</u></string>
+    <string name="bank_details">Bank Details</string>
+    <string name="show_bank_details">Show Bank Details</string>
+    <string name="add_shop_details">Add Shop Details</string>
+    <string name="bank_name">Bank Name</string>
+    <string name="branch_name">Branch Name</string>
+    <string name="ifsc_code">IFSC Code</string>
+    <string name="acc_holder_name">Acc. Holder Name</string>
+    <string name="account_number">Account Number</string>
+    <string name="or">OR</string>
+    <string name="upi_id">UPI ID</string>
+    <string name="set_as_default">Set as Default?</string>
+    <string name="no">No</string>
+    <string name="submit">SUBMIT</string>
+    <string name="product_amp_services"><![CDATA[Product & Services]]></string>
+    <string name="show_product_amp_services"><![CDATA[Show Product & Services]]></string>
+    <string name="select_listing">Select Listing</string>
+    <string name="product_amp_services_name"><![CDATA[Product & Services Name]]></string>
+    <string name="price">Price</string>
+    <string name="tags">Tags</string>
+    <string name="description">Description</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="recommended_size_500px_x_500px">(Recommended Size 500px x 500px)</string>
+    <string name="show_shop">Show Shop</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="basic_info">Basic Info</string>
+    <string name="company_name">Company Name</string>
+    <string name="business_type">Business Type</string>
+    <string name="category">Category</string>
+    <string name="sub_category">Sub Category</string>
+    <string name="next">NEXT</string>
+    <string name="shop">Shop</string>
+    <string name="location">Location</string>
+    <string name="local_area">Local Area</string>
+    <string name="country">Country</string>
+    <string name="india">India</string>
+    <string name="state">State</string>
+    <string name="city">City</string>
+    <string name="shop_no_office_no_building">Shop No. / Office No. / Building</string>
+    <string name="pin_code">Pin Code</string>
+    <string name="previous">PREVIOUS</string>
+    <string name="upload_images">Upload Images</string>
+    <string name="add_logo">Add logo</string>
+    <string name="recommended_size_300px_x_300px">(Recommended Size 300px x 300px)</string>
+    <string name="add_banner_images">Add Banner Images</string>
+    <string name="recommended_size_700px_x_300px">(Recommended Size 700px x 300px)</string>
+    <string name="youtube_video_link">Youtube Video Link</string>
+    <string name="monday_opening">Monday Opening</string>
+    <string name="monday_closing">Monday Closing</string>
+    <string name="tuesday_opening">Tuesday Opening</string>
+    <string name="tuesday_closing">Tuesday Closing</string>
+    <string name="wednesday_opening">Wednesday Opening</string>
+    <string name="wednesday_closing">Wednesday Closing</string>
+    <string name="thursday_opening">Thursday Opening</string>
+    <string name="thursday_closing">Thursday Closing</string>
+    <string name="friday_opening">Friday Opening</string>
+    <string name="friday_closing">Friday Closing</string>
+    <string name="saturday_opening">Saturday Opening</string>
+    <string name="saturday_closing">Saturday Closing</string>
+    <string name="sunday_opening">Sunday Opening</string>
+    <string name="sunday_closing">Sunday Closing</string>
+    <string name="add_bank_detials">Add Bank Detials</string>
+    <string name="si_no">SI.No</string>
+    <string name="account_holder">Account Holder</string>
+    <string name="is_default">Is Default?</string>
+    <string name="status">Status</string>
+    <string name="action">Action</string>
+    <string name="no_data_available">No Data Available</string>
+    <string name="contact">Contact</string>
+    <string name="website_url">Website Url</string>
+    <string name="email_id">Email ID</string>
+    <string name="contact_no">Contact No.</string>
+    <string name="whatsapp_no">Whatsapp No.</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="linkedin">Linkedin</string>
+    <string name="instagram">Instagram</string>
+    <string name="wordpress">Wordpress</string>
+    <string name="blog">Blog</string>
+    <string name="pinterest">Pinterest</string>
+    <string name="youtube">Youtube</string>
+    <string name="google_map">Google Map</string>
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="checkout">Checkout</string>
+    <string name="delivery_shipping_address">Delivery/Shipping Address</string>
+    <string name="please_add_your_current_location_only">(Please add your current location only)</string>
+    <string name="select_payment_method">Select Payment Method</string>
+    <string name="cod">COD</string>
+</resources>
