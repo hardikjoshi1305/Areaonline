@@ -132,7 +132,7 @@ public class Manage_Profile_Activity extends AppCompatActivity {
                         if ((loginResponse.getData().getProfile().getCertificate() != null)){
                             Glide.with(Manage_Profile_Activity.this)
                                     .asBitmap()
-                                    .load("https://www.areaonline.in/uploads/vendor_doc/"+loginResponse.getData().getProfile().getCertificate()).placeholder(R.drawable.loading).diskCacheStrategy(DiskCacheStrategy.NONE)
+                                    .load("https://www.areaonline.in/uploads/vendor_doc/"+loginResponse.getData().getProfile().getCertificate()).placeholder(com.denzcoskun.imageslider.R.drawable.default_loading).diskCacheStrategy(DiskCacheStrategy.NONE)
                                     .skipMemoryCache(true).into(new CustomTarget<Bitmap>() {
                                         @Override
                                         public void onResourceReady(@NonNull Bitmap resource, @Nullable Transition<? super Bitmap> transition) {

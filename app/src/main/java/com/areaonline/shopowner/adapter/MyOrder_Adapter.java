@@ -37,7 +37,7 @@ import com.google.gson.JsonPrimitive;
 import com.google.gson.JsonSyntaxException;
 import com.google.gson.stream.JsonReader;
 
-import org.shadow.apache.commons.lang3.StringEscapeUtils;
+//import org.shadow.apache.commons.lang3.StringEscapeUtils;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -209,11 +209,11 @@ import java.util.Date;
 //            return map_list == null ? 0 : map_list.getData().getPayment().size();
             return response.getData().size();
         }
-        public String removeQuotesAndUnescape(String uncleanJson) {
-            String noQuotes = uncleanJson.replaceAll("^\"|\"$", "");
-
-            return StringEscapeUtils.unescapeJava(noQuotes);
-        }
+//        public String removeQuotesAndUnescape(String uncleanJson) {
+//            String noQuotes = uncleanJson.replaceAll("^\"|\"$", "");
+//
+//            return StringEscapeUtils.unescapeJava(noQuotes);
+//        }
         public class ViewHolder extends RecyclerView.ViewHolder {
 //            TextView tv_slno,tv_companyname,tv_price,tv_status,tv_orderdate,tv_invoice,tv_paymentmode;
 //            LinearLayout line_info,lin_viewdetail,line_track,line_status;

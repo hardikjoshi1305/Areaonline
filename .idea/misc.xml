@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
@@ -66,10 +65,14 @@
         <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/layout/success_payment.xml" value="0.176" />
         <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.24427083333333333" />
         <entry key="..\:/AreaOnline150422/Area Online09042022/Area Online/app/src/main/res/menu/navigation_menu.xml" value="0.2484375" />
+        <entry key="..\:/hardik projects2/Areaonline/Areaonline/app/src/main/res/layout/activity_register.xml" value="0.2484375" />
+        <entry key="..\:/hardik projects2/Areaonline/Areaonline/app/src/main/res/layout/activity_welcome.xml" value="0.2484375" />
+        <entry key="..\:/hardik projects2/Areaonline/Areaonline/app/src/main/res/layout/fragment_welcome_intro.xml" value="0.24461538461538462" />
+        <entry key="..\:/hardik projects2/Areaonline/Areaonline/app/src/main/res/layout/layout_help_screen.xml" value="0.2484375" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

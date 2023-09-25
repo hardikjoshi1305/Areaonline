@@ -35,11 +35,11 @@ import com.areaonline.utils.CommandMethod;
 import com.areaonline.utils.PrefUtils;
 import com.chaos.view.PinView;
 import com.google.gson.Gson;
-import com.truecaller.android.sdk.ITrueCallback;
-import com.truecaller.android.sdk.TrueError;
-import com.truecaller.android.sdk.TrueProfile;
-import com.truecaller.android.sdk.TruecallerSDK;
-import com.truecaller.android.sdk.TruecallerSdkScope;
+//import com.truecaller.android.sdk.ITrueCallback;
+//import com.truecaller.android.sdk.TrueError;
+//import com.truecaller.android.sdk.TrueProfile;
+//import com.truecaller.android.sdk.TruecallerSDK;
+//import com.truecaller.android.sdk.TruecallerSdkScope;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -74,44 +74,44 @@ public class LoginActivity extends AppCompatActivity {
         editTextPassword = findViewById(R.id.editTextPassword);
         tv_forgotpass = findViewById(R.id.tv_forgotpass);
         tv_loginwithotp = findViewById(R.id.tv_loginwithotp);
-        tv_truecaller = findViewById(R.id.tv_truecaller);
+//        tv_truecaller = findViewById(R.id.tv_truecaller);
         line_signin_detail.setVisibility(View.GONE);
-        TruecallerSdkScope trueScope = new TruecallerSdkScope.Builder(this, sdkCallback)
-                .consentMode(TruecallerSdkScope.CONSENT_MODE_BOTTOMSHEET)
-                .loginTextPrefix(TruecallerSdkScope.LOGIN_TEXT_PREFIX_TO_GET_STARTED)
-                .loginTextSuffix(TruecallerSdkScope.LOGIN_TEXT_SUFFIX_PLEASE_VERIFY_MOBILE_NO)
-                .ctaTextPrefix(TruecallerSdkScope.CTA_TEXT_PREFIX_USE)
-                .buttonShapeOptions(TruecallerSdkScope.BUTTON_SHAPE_ROUNDED)
-                .footerType(TruecallerSdkScope.FOOTER_TYPE_NONE)
-                .consentTitleOption(TruecallerSdkScope.SDK_CONSENT_TITLE_LOG_IN)
-                .build();
-        TruecallerSDK.init(trueScope);
+//        TruecallerSdkScope trueScope = new TruecallerSdkScope.Builder(this, sdkCallback)
+//                .consentMode(TruecallerSdkScope.CONSENT_MODE_BOTTOMSHEET)
+//                .loginTextPrefix(TruecallerSdkScope.LOGIN_TEXT_PREFIX_TO_GET_STARTED)
+//                .loginTextSuffix(TruecallerSdkScope.LOGIN_TEXT_SUFFIX_PLEASE_VERIFY_MOBILE_NO)
+//                .ctaTextPrefix(TruecallerSdkScope.CTA_TEXT_PREFIX_USE)
+//                .buttonShapeOptions(TruecallerSdkScope.BUTTON_SHAPE_ROUNDED)
+//                .footerType(TruecallerSdkScope.FOOTER_TYPE_NONE)
+//                .consentTitleOption(TruecallerSdkScope.SDK_CONSENT_TITLE_LOG_IN)
+//                .build();
+//        TruecallerSDK.init(trueScope);
 
-        tv_truecaller.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(TruecallerSDK.getInstance().isUsable()){
-                    TruecallerSDK.getInstance().getUserProfile( LoginActivity.this);
-                }else{
-
-                    AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(LoginActivity.this);
-                    dialogBuilder.setMessage("Truecaller App not installed.");
-
-                    dialogBuilder.setPositiveButton("OK", (dialog, which) -> {
-                                Log.d( "onClick: Closing dialog"," ");
-
-                                dialog.dismiss();
-                            }
-                    );
-
-                    dialogBuilder.setIcon(R.drawable.com_truecaller_icon);
-                    dialogBuilder.setTitle(" ");
-
-                    AlertDialog alertDialog = dialogBuilder.create();
-                    alertDialog.show();
-                }
-            }
-        });
+//        tv_truecaller.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                if(TruecallerSDK.getInstance().isUsable()){
+//                    TruecallerSDK.getInstance().getUserProfile( LoginActivity.this);
+//                }else{
+//
+//                    AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(LoginActivity.this);
+//                    dialogBuilder.setMessage("Truecaller App not installed.");
+//
+//                    dialogBuilder.setPositiveButton("OK", (dialog, which) -> {
+//                                Log.d( "onClick: Closing dialog"," ");
+//
+//                                dialog.dismiss();
+//                            }
+//                    );
+//
+//                    dialogBuilder.setIcon(R.drawable.com_truecaller_icon);
+//                    dialogBuilder.setTitle(" ");
+//
+//                    AlertDialog alertDialog = dialogBuilder.create();
+//                    alertDialog.show();
+//                }
+//            }
+//        });
 
         tv_forgotpass.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -194,32 +194,32 @@ public class LoginActivity extends AppCompatActivity {
 //            }
 //        });
     }
-    private final ITrueCallback sdkCallback = new ITrueCallback() {
-
-        @Override
-        public void onSuccessProfileShared(@NonNull final TrueProfile trueProfile) {
-            Log.i("TAG", trueProfile.firstName + " " + trueProfile.lastName);
-            Toast.makeText(LoginActivity.this, "Welcome  "+trueProfile.firstName + " " + trueProfile.lastName, Toast.LENGTH_LONG).show();
-//            Get_Login_user_api(trueProfile.email,trueProfile.phoneNumber);
-        }
-
-        @Override
-        public void onFailureProfileShared(@NonNull final TrueError trueError) {
-            Log.i("TAG1", trueError.toString());
-        }
-
-        @Override
-        public void onVerificationRequired(@Nullable final TrueError trueError) {
-            Log.i("TAG", "onVerificationRequired");
-        }
-    };
+//    private final ITrueCallback sdkCallback = new ITrueCallback() {
+//
+//        @Override
+//        public void onSuccessProfileShared(@NonNull final TrueProfile trueProfile) {
+//            Log.i("TAG", trueProfile.firstName + " " + trueProfile.lastName);
+//            Toast.makeText(LoginActivity.this, "Welcome  "+trueProfile.firstName + " " + trueProfile.lastName, Toast.LENGTH_LONG).show();
+////            Get_Login_user_api(trueProfile.email,trueProfile.phoneNumber);
+//        }
+//
+//        @Override
+//        public void onFailureProfileShared(@NonNull final TrueError trueError) {
+//            Log.i("TAG1", trueError.toString());
+//        }
+//
+//        @Override
+//        public void onVerificationRequired(@Nullable final TrueError trueError) {
+//            Log.i("TAG", "onVerificationRequired");
+//        }
+//    };
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == TruecallerSDK.SHARE_PROFILE_REQUEST_CODE) {
-            TruecallerSDK.getInstance().onActivityResultObtained(this, requestCode, resultCode, data);
-        }
+//        if (requestCode == TruecallerSDK.SHARE_PROFILE_REQUEST_CODE) {
+//            TruecallerSDK.getInstance().onActivityResultObtained(this, requestCode, resultCode, data);
+//        }
     }
 
 

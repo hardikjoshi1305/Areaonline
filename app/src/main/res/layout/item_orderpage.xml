@@ -18,7 +18,7 @@
             android:id="@+id/doubleSpanImageView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/loading"
+            android:src="@drawable/default_loading"
             android:scaleType="fitXY"
             android:contentDescription="@string/image_view_content_description"
              />
